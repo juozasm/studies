@@ -1,0 +1,19 @@
+.root {
+    padding: 40px;
+    h1 {
+        font-weight: 600;
+        font-size: 60px;
+        text-align: center;
+    }
+}
+.backBtn {
+    cursor: pointer;
+    font-weight: 500;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    &:hover {
+        transition: transform 0.2s ease-in;
+        transform: scale(1.1);
+    }
+}

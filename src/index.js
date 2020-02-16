@@ -1,6 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom"
 import "normalize.css"
+import "flexboxgrid/css/flexboxgrid.css"
 import "./styles/libs.scss"
 import "./styles/base.scss"
 

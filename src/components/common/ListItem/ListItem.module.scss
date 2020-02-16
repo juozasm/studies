@@ -1,0 +1,20 @@
+@import "../../../styles/variables.scss";
+
+.root {
+    width: 100%;
+    padding: 10px 1em;
+    border-top: 1px solid $grey;
+}
+
+.header {
+    height: 60px;
+    font-weight: 500;
+    border-top: 0;
+}
+
+.link {
+    display: block;
+    &:hover {
+        background-color: $grey;
+    }
+}

@@ -1,0 +1,71 @@
+@import "../../styles//variables.scss";
+.root {
+    margin: 0 auto;
+}
+.study {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    font-weight: 600;
+    font-size: 14px;
+    img {
+        display: block;
+        margin-right: 1em;
+        height: 100%;
+        max-width: 100%;
+    }
+}
+
+.controls {
+    position: sticky;
+    top: 0;
+    border-top: 0;
+    background-color: $light-blue;
+    padding: 10px 1em;
+}
+
+.control {
+    display: flex;
+    align-items: center;
+    label {
+        font-weight: 500;
+        margin-right: 10px;
+    }
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tagFilter {
+    border: 1px solid $bright-blue;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+        background-color: $bright-blue;
+        color: #fff;
+    }
+    &.active {
+        background-color: $bright-blue;
+        color: #fff;
+    }
+}
+
+.tag {
+    border: 1px solid $grey;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+        background-color: $grey;
+        color: #fff;
+    }
+    &.active {
+        background-color: $grey;
+        color: #fff;
+    }
+}

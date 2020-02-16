@@ -1,0 +1,43 @@
+@import "../../styles//variables.scss";
+.root {
+    padding: 40px;
+    h1 {
+        text-align: center;
+        margin: 40px 0;
+    }
+    margin: auto;
+}
+
+.backBtn {
+    cursor: pointer;
+    font-weight: 500;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    &:hover {
+        transition: transform 0.2s ease-in;
+        transform: scale(1.1);
+    }
+}
+
+.gallery {
+    width: 600px;
+    height: 450px;
+    margin: 0 auto;
+    :global {
+        .image-gallery-content .image-gallery-slide .image-gallery-image {
+            max-height: 300px;
+        }
+        .image-gallery-thumbnail .image-gallery-thumbnail-image {
+            max-height: 100px;
+        }
+    }
+}
+
+.table {
+    margin: 0 auto;
+    width: 600px;
+    border-left: 1px solid $grey;
+    border-right: 1px solid $grey;
+    border-bottom: 1px solid $grey;
+}
